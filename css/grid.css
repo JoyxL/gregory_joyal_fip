@@ -1,0 +1,213 @@
+body {
+    color: #000000;
+    font-family: 'Sanchez', 'Times New Roman', serif;
+ }
+
+#mobile-outline {
+    outline: 20px solid #000000;
+    max-width: 412px;
+    margin: 20px auto 20px auto;
+    border-radius: 10px;
+} 
+.regtext{
+ background-color: #626262;
+ max-width: 412;
+}
+#main-nav label img {
+    width: 20px;
+    height: 20px;
+    margin-top: 15px;
+    cursor: pointer;
+    transition: all .5s ease;
+    margin-bottom: 20px; 
+}
+#main-nav input, #nav {
+    display: none;
+}
+#main-nav input:checked ~ #nav {
+    display: block;
+}
+ #main-nav input:checked ~ label img {
+    transform: rotate(90deg);
+}
+#main-nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+#main-nav ul li a {
+    display: block;
+    padding: 10px 0 10px 0;
+    text-align: center;
+    color: #626262;
+    text-decoration: none;
+}
+#main-nav ul li {
+    border-bottom: 1px solid #efefef;
+}
+#main-nav ul li:first-child {
+    border-top: 1px solid #efefef;
+ }
+ #logo {
+    margin-bottom: 20px;
+    max-width: 382px;
+ }
+ #mainimg {
+    background: url(../images/massage_header_image.png
+    ) no-repeat;
+    height: 200px;
+}
+#packimg {
+    background: url(../images/packages_header.png
+    ) no-repeat;
+    height: 200px;
+}
+#roomimg {
+    background: url(../images/room_header.png
+    ) no-repeat;
+    height: 200px;
+}
+.book-now {
+    position: relative;
+    background-color: #9a2018;
+    color: #fff;
+    font-size: 16px;
+    transition: background-color 500ms linear;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-style: italic;
+    transition:all 0.3s ease;
+    cursor: pointer;
+    width: 6em;
+    left: 302px;
+}
+.book-now:hover {
+    background-color: rgb(196, 28, 28);
+ }
+ #book-now {
+    
+    height: 67px;
+ }
+ #hero-heading-box {
+    align-self: end;
+}
+
+.pop{
+    background-color: #660303;
+    max-width: 412px;
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    align-content: center;
+    color: #ffffff;
+}
+.container2 {
+    max-width: 412px;
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    background-color: #efefef;
+    padding-bottom: 10px;
+    padding-top: 10px;
+
+}
+.image{max-width: 412;}
+.col-span-full {grid-column: 1 / -1;}
+.grid { 
+    display: grid;
+    grid-template-columns: repeat(4, 73px);
+    column-gap: 30px;
+    max-width: 412px;
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.grid1 { 
+    display: grid;
+    column-gap: 30px;
+    max-width: 412px;
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.container1{
+    padding-left: 10px;
+    position: relative;
+    background-color: white;
+    width: 360px;
+    align-items: center;
+    justify-content: left;
+    top: 125px;
+    height: 75px;
+    right: 100px; 
+    line-height: 0.2;
+}
+.couples-resort{
+    bottom: 10px;
+}
+.head-p{
+    color: #9a2018;
+}
+hr {
+    right: 100px;
+    border: none;
+    height: 3px;
+    width: 25em;
+    align-items: center;
+    background-color: #a10909;
+    padding-left: 30px;
+    overflow: hidden;
+}
+.facial{
+    display: grid;
+    column-gap: 30px;
+    max-width: 412px;
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.ftext {
+    display: grid;
+    column-gap: 30px;
+    max-width: 412px;
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}   
+.foot{
+ width: 212;
+}
+.footer{
+    display: grid;
+    column-gap: 30px;
+    max-width: 212px;
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.container3 {
+    padding-left: 15px;
+    background-color: white;
+    width: 412px;
+    align-items: center;
+    justify-content: left;
+    height: 75px;
+    right: 100px; 
+    line-height: 0.2;}
+.vl {
+        border-left: 6px solid rgb(128, 0, 0);
+        height: 28px;
+        padding-left: 10px;
+}
+#footer{
+    background: url(../images/footer.jpg);
+    color: white;
+}
+#pricepolicy{
+    text-align: center;
+    justify-content: center;
+    font-size: x-small;
+    padding: 25px;
+}
