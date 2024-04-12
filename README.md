@@ -3,11 +3,11 @@ This project represents the culmination of my efforts and learning throughout th
 
 ## Installation
 
-TODO: no installation process
+no installation process
 
 ## Usage
 
-TODO: this website holds information about couplesresort.ca
+this website holds information about couplesresort.ca
 
 ## Credits
 
